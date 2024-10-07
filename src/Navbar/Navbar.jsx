@@ -7,7 +7,7 @@ function Navbar() {
   let[toggle, setToggle] = useState(false)
   return (
     <>
-          <nav className='bg-blue-600'>
+          <nav className='bg-blue-600 px-4'>
               <div className='container mx-auto  p-4 flex items-center justify-between'>
                   <div className='font-semibold text-white text-center text-2xl cursor-pointer hover:underline'><Link to={'/'}>IIC E-Learning</Link></div>
                   <div>

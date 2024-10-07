@@ -7,7 +7,7 @@ function Typed() {
    <>
    
    <div className='p-4'>
-        <div className='text-center mt-[80px] text-3xl font-semibold text-gray-700'>
+        <div className='text-center mt-[80px] text-3xl font-semibold text-gray-700 p-4'>
             <h1 className='text-6xl py-5 text-blue-700'>ICON INSTITUTE OF COMPUTER</h1>
             <h1 className='text-4xl pb-4 text-yellow-700 underline '>Complete Digital</h1>
 
