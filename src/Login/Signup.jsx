@@ -39,7 +39,7 @@ function Signup() {
         </video>
       </div>
    <div className='p-4'>
-            <div className='w-[500px] p-4 m-auto border my-[80px] shadow-xl rounded-xl bg-white'>
+            <div className='max-w-[500px] p-4 m-auto border my-[80px] shadow-xl rounded-xl bg-white'>
                 <form className='p-4' onSubmit={onSubmit}>
                     <h1 className='text-center py-4 text-2xl text-gray-600 font-semibold'>Signup</h1>
                     <div className='flex items-center'>
