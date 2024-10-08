@@ -27,8 +27,13 @@ function ClientLogin() {
 
   return (
    <>
+       <div>
+        <video autoPlay muted loop className='fixed right-0  bottom-0 min-w-[100%] min-h-[100%] z-[-4] object-cover overflow-clip'>
+          <source src='/image/background.mp4'/>
+        </video>
+      </div>
        <div className='p-4 flex items-center justify-center h-[100%] w-full'>
-          <div className='w-[500px] p-4 border mt-[100px] rounded-xl shadow-xl'>
+          <div className='w-[500px] p-4 border mt-[100px] rounded-xl shadow-xl bg-white'>
               <form className='w-full p-4' onSubmit={onSubmit}>
                       <h1 className='text-center text-2xl text-gray-600 font-semibold py-6'>Client Login</h1>
                       <div className='flex items-center gap-2'>
