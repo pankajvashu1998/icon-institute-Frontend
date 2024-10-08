@@ -10,7 +10,7 @@ import { FaNetworkWired } from "react-icons/fa";
 function CounterUp() {
   let [counterOn, setCounterOn] = useState(false)
   return (
-    <div className='p-4'>
+    <div className='p-4 mb-[50px]'>
       <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
         <div className='max-w-full m-auto bg-purple-500 md:flex items-center justify-evenly p-4 text-center py-[100px] rounded-xl'>
                 

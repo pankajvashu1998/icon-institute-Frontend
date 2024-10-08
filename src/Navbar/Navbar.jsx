@@ -7,7 +7,7 @@ function Navbar() {
   let[toggle, setToggle] = useState(false)
   return (
     <>
-          <nav className='bg-blue-600 px-4'>
+          <nav className='bg-blue-600 px-4 max-w-full'>
               <div className='container mx-auto  p-4 flex items-center justify-between'>
                   <div className='font-semibold text-white text-center text-2xl cursor-pointer hover:underline'><Link to={'/'}>IIC E-Learning</Link></div>
                   <div>
@@ -22,9 +22,9 @@ function Navbar() {
                     {/* Responsive Navbar */}
                     <ul className={`z-[10] md:hidden flex justify-center p-4 gap-10 font-semibold text-gray-700 fixed  bg-gray-200 top-[66px] w-full flex-col ${toggle?'left-0':'left-[100%]'} duration-300`}>
                       <li className='hover:underline'><Link to={'/'}>Home</Link></li>
-                      <li className='hover:underline'><Link>Course</Link></li>
-                      <li className='hover:underline'><Link>Contact</Link></li>
-                      <li className='hover:underline'><Link>About</Link></li>
+                      <li className='hover:underline'><Link to={'/course'}>Course</Link></li>
+                      <li className='hover:underline'><Link to={'/contact'}>Contact</Link></li>
+                      <li className='hover:underline'><Link to={'/about'}>About</Link></li>
                     </ul>
 
 
